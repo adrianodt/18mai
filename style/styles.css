@@ -24,7 +24,8 @@ body {
     margin: 0px auto;
     border-radius: 20px;
     width: 100%;
-    max-width: 320px;margin-top: 10px;
+    max-width: 320px;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -37,6 +38,9 @@ header img {
     width: 70%;
 }
 
+audio {
+    width: 80%;
+}
 main {
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,9 +78,8 @@ main .text4 {
 }
 
 main h4 {
-    color:white;
+    color: white;
     padding: 10px40px;
-
 }
 
 .important-data {
@@ -100,13 +103,12 @@ main h4 {
 .asistencia h4 {
     font-size: 20px;
     font-family: "Montserrat", sans-serif;
-
 }
 
 .regalo h3 {
     padding-top: 20px;
     font-size: 20px;
-    color:white;
+    color: white;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -114,8 +116,6 @@ main h4 {
     display: flex;
     justify-content: center;
 }
-
-
 
 footer {
     text-align: center;
