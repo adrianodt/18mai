@@ -87,16 +87,16 @@ main h4 {
     background-image: url("/img/fondo3.jpg");
     border-radius: 10px;
     margin: 30px 10px;
-    padding: 20px 0px;
+    padding: 10px 0px;
     color: rgb(27, 27, 27);
 }
 
 .important-data .titulo {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .important-data .data {
-    font-size: 25px;
+    font-size: 20px;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -105,17 +105,40 @@ main h4 {
     font-family: "Montserrat", sans-serif;
 }
 
-.regalo h3 {
-    padding-top: 20px;
-    font-size: 20px;
+.regalo {
     color: white;
     font-family: "Montserrat", sans-serif;
+    border: solid #333 1px;
+    border-radius: 10px;
+    background-color: #333;
+    padding: 9px;
+    margin:10px;
 }
 
-.regalo .img {
+.datos-regalo {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    width: 100%;
 }
+
+.datos-regalo alias {
+    font-size: 10px;
+} 
+
+.datos-regalo img {
+    height: 50px;
+}
+ .regalo h3 {
+    font-size: 16px;
+}
+
+.alias p {
+    font-size: 14px;
+}
+
 
 footer {
     text-align: center;
